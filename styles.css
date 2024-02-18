@@ -67,6 +67,14 @@ html, body{
     height: 3rem; width: 45%; border-radius: 0.8rem; font-size: 1.2rem;
 }
 
+.btn{
+    cursor: pointer;
+}
+
+.btn-copiar{
+    cursor: pointer;
+}
+
 .btn-copiar{
     height: 3rem; width: 90%; border-radius: 0.8rem; font-size: 1.2rem;
 }
