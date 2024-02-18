@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+.cccontainer{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+.pd-2{
+    padding: 20px;
+}
+.btn{
+    border-radius: 1rem;
+    width: 15rem;
+    padding: 0.8rem 0;
+}
+.btn-grey{
+    border: 2px solid gray;
+    background-color: gainsboro;
+}
+.btn-blue{
+    border: 2px solid blue;
+    background-color: #323ff5;
+    color: #FFFFFF;
+}
+.col{
+    display: inline-block;
+}
+.col-6{
+    width: 60%;
+    border: 1px solid red;
+}
+.col-4{
+    width: 40%;
+    border: 1px solid red;
+}
+.row-8{
+    height: 80%;
+    border: 1px solid blue;
+}
+.row-2{
+    height: 20%;
+    border: 1px solid blue;
+}
