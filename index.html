@@ -4,41 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
     <title>Document</title>
 </head>
 <body>
-    <div class="container" style="position: absolute; width: 100%; height: 100%; background-color: aqua; display: flex;">
-        <div style="padding: 20px; background-color: blue; width: 100%; display: flex">
-            <div class="" style="border: 1px solid red; width: 60%; display: flex;">
-                <div style="border: 1px solid green; display: inline-block; margin: 20px; padding: 20px;width: 100%; border-radius: 0.8rem;">
-                    <div class="" style="border: 1px solid yellow; height: 80%;">
-                        <textarea class="" type="text" style="width: 99%; height:99%; border: none; background-color: transparent;"></textarea>
+    <div class="container bg-gray">
+        <div class="box">
+            <div class="col-6">
+                <div class="input-section">
+                    <div class="row-8">
+                        <textarea class="input-box pt-2" type="text" placeholder="ingrese el texto aquí"></textarea>
                     </div>
-                    <div class="" style="border: 1px solid yellow; height: 20%; display: flex; align-items: end;">
-                        <div style="background-color: red; width: 100%;">
-                            <div style="margin-bottom: 10px;"><span>Solo letras minúsculas y sin acentos</span></div>
-                            <div style="border: 1px solid white; width: 100%; display: flex; align-items: end; justify-content: space-between;">
-                                <button class="" style="height: 3rem; width: 18rem;">Encriptar</button>
-                                <button class="" style="height: 3rem; width: 18rem;">Desencriptar</button>
+                    <div class="row-2">
+                        <div class="w-100">
+                            <div style="margin-bottom: 10px;"><span style="font-size: 1.15rem; color: gray"><i class="fas fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos</span></div>
+                            <div class="btn-input-group">
+                                <button class="btn btn-blue">Encriptar</button>
+                                <button class="btn btn-gray">Desencriptar</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="" style="border: 1px solid red; width: 40%; display: flex;">
-                <div style="border: 1px solid green; display: inline-block; margin: 20px; padding: 20px; width: 100%; border-radius: 0.8rem;">
-                    <div class="" style="border: 1px solid yellow; height: 80%;">
-                        <textarea class="" type="text" style="width: 99%; height:99%; border: none; background-color: transparent;"></textarea>
+            </div><!--col-6-->
+            <div class="col-4">
+                <div class="output-section bg-white">
+                    <div class="row-8">
+                        <textarea class="output-box" type="text"></textarea>
                     </div>
-                    <div class="" style="border: 1px solid yellow; height: 20%; display: flex; align-items: end;">
-                        <div style="background-color: red; width: 100%;">
-                            <div style="border: 1px solid white; width: 100%; display: flex; align-items: end; justify-content: space-around;">
-                                <button class="" style="height: 3rem; width: 18rem;">Copiar</button>
+                    <div class="row-2">
+                        <div class="w-100">
+                            <div class="btn-output-group">
+                                <button class="btn-copiar btn-gray">Copiar</button>
                             </div>
                         </div>    
                     </div>
                 </div>
-            </div>
+            </div><!--col-6-->
         </div>
     </div><!--container-->
 </body>
