@@ -10,17 +10,18 @@
 <body>
     <div class="container bg-gray">
         <div class="box">
+            <img src="./img/logo_alura.png" alt="cargando" width="60" height="75">
             <div class="col-6">
                 <div class="input-section">
                     <div class="row-8">
-                        <textarea class="input-box pt-2" type="text" placeholder="ingrese el texto aquí"></textarea>
+                        <textarea id="textarea1" class="input-box pt-2" type="text" placeholder="ingrese el texto aquí"></textarea>
                     </div>
                     <div class="row-2">
                         <div class="w-100">
                             <div style="margin-bottom: 10px;"><span style="font-size: 1.15rem; color: gray"><i class="fas fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos</span></div>
                             <div class="btn-input-group">
-                                <button class="btn btn-blue">Encriptar</button>
-                                <button class="btn btn-gray">Desencriptar</button>
+                                <button class="btn btn-blue" onclick="botonEncriptar()">Encriptar</button>
+                                <button class="btn btn-gray" onclick="botonDesencriptar()">Desencriptar</button>
                             </div>
                         </div>
                     </div>
@@ -29,12 +30,12 @@
             <div class="col-4">
                 <div class="output-section bg-white">
                     <div class="row-8">
-                        <textarea class="output-box" type="text"></textarea>
+                        <textarea id="textarea2" class="output-box" type="text"></textarea>
                     </div>
                     <div class="row-2">
                         <div class="w-100">
                             <div class="btn-output-group">
-                                <button class="btn-copiar btn-gray">Copiar</button>
+                                <button class="btn-copiar btn-gray" onclick="botonCopiar()">Copiar</button>
                             </div>
                         </div>    
                     </div>
@@ -43,4 +44,5 @@
         </div>
     </div><!--container-->
 </body>
+<script src="encriptador.js"></script>
 </html>
